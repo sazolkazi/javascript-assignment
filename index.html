@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mac-book-pro</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <section class="my-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="mac-image">
+                        <img class="w-75" src="image/mac.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mac-info">
+                        <h1>Customize Your Blue 24-inch iMac with Apple M1 chip.</h1>
+                        <p>
+                            Apple M1 chip with 8-core CPU with 4 preformance core and 4 effciency cores, 7-core GPU, and 16-core Neural Engine 8GB uniified memory 256GB SSD storage Two Thunderbolt/ USB 4 ports Magic Mouse Magic Keyboard-US English.
+                        </p>
+                    </div>
+                    <div class="memory-detalis my-2">
+                        <h3>Memory</h3>
+                        <div class="row g-0 justify-content-center">
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-primary" id="memory1">8GB unified memory</button>
+
+                                <button type="button" class="btn btn-outline-primary m-3" id="memory2">16GB unified memory</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Storage-detalis my-2">
+                        <h3>Storage</h3>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-outline-primary" id="storage256">256GB SSD storage</button>
+                                <button type="button" class="btn btn-outline-primary m-3" id="storage512">512GB SSD storage</button>
+                                <button type="button" class="btn btn-outline-primary" id="storage1tb">1TB SSD storage</button>
+                            </div>
+                            <div class="delivery-detalis my-2">
+                                <h3>Choose your delivery option</h3>
+                                <div class="row g-0">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-outline-primary" id="free_delivery">Friday,Aug 25 FREE prime delivery</button>
+                                        <button type="button" class="btn btn-outline-primary m-3" id="cost_delivery">Friday, Aug 21 Delivery charge $20</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-item w-75">
+                        <div class="row g-0 p-0">
+
+                            <div class="col-md-8">
+                                <h4>Best price:</h4>
+                                <hr>
+                                <h4>Extra Memory Cost:</h4>
+                                <hr>
+                                <h4>Extra Storage Cost:</h4>
+                                <hr>
+                                <h4>Delivery Charge:</h4>
+                                <hr>
+                                <h3>Total Price:</h3>
+                                <hr>
+
+
+                            </div>
+
+                            <div class="col-md-4">
+                                <h4>$<span id="best-amount">1299</span></h4>
+                                <hr>
+                                <h4>$<span id="extra-memory">0</span></h4>
+                                <hr>
+                                <h4>$<span id="extra-storage">0</span></h4>
+                                <hr>
+                                <h4>$<span id="extra-delivery">0</span></h4>
+                                <hr>
+                                <h3>$<span id="total-price">1299</span></h3>
+                                <hr>
+
+                            </div>
+                        </div>
+                    </div>
+                    <form class="row g-0">
+                        <h5>Add Pomo code</h5>
+                        <div class="col-auto">
+                            <input type="text" class="form-control" id="addpromocode">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3" onclick="promo_code()">Apply</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="total-price w-50 m-auto my-5">
+                <div class="row g-0 p-0">
+                    <div class="col-md-2">
+                        <h1>Total: </h1>
+                    </div>
+                    <div class="col-md-10">
+                        <h1>$<span id="">1299</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+    <script src="card.js"></script>
+
+</body>
+
+</html>
